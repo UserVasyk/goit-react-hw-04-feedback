@@ -15,6 +15,7 @@ export const App = () => {
       0
     );
   };
+
   const onLeaveFeedback = event => {
     const value = event.target.name;
 
@@ -32,6 +33,7 @@ export const App = () => {
         return;
     }
   };
+  
   const countPositiveFeedbackPercentage = () => {
     if (countTotalFeedback() === 0) {
       return 0;
